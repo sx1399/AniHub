@@ -319,3 +319,13 @@ input:focus {
     font-size: 22px;
   }
 }
+
+@media (max-width: 480px) {
+  .copyright {
+    text-align: center;
+  }
+
+  .anime {
+    width: 100%;
+  }
+}
