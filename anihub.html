@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniHub</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./app.js"></script>
+    <script src="https://kit.fontawesome.com/15976f1cea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="home">
+            <div class="row">
+                <div class="nav">
+                    <div class="nav__left">
+                        <h1 class="nav__title">AniHub</h1>
+                        <div class="nav__links">
+                            <a class="nav__link link__hover--effect" href="#">Home</a>
+                            <a class="nav__link link__hover--effect" href="#">Trending</a>
+                            <a class="nav__link link__hover--effect" href="#">Newest</a>
+                            <a class="nav__link link__hover--effect" href="#">Favourites</a>
+                        </div>
+                    </div>
+                    <div class="nav__right">
+                        <div class="search__container">
+                            <input class="search__bar" type="text" placeholder="'One Piece...'">
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+    </section>
+
+    <section id="landing">
+        <div class="banner">
+            <div class="nav__img--wrapper">
+                <img src="./assets/anime-gintama-gintoki-sakata-wallpaper-thumb.jpg" class="nav__img" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="results">
+        <div class="container">
+            <div class="row">
+                <div class="results__container">
+                    <div class="results__header">
+                        <h1 class="search__results">Trending </h1>
+                        <select id="filter">
+                            <option value="start" disabled selected>Sort</option>
+                            <option value="NEWEST-OLDEST">Newest</option>
+                            <option value="OLDEST-NEWEST">Oldest</option>
+                        </select>
+                    </div>
+                    <div class="anime__list">
+                        <!-- <div class="anime">
+                            <figure class="anime__img--wrapper">
+                                <img class="anime__img"
+                                    src="./assets/OnePieceCover.jpeg"
+                                    alt="">
+                            </figure>
+                            <h2 class="anime__title">One Piece</h2>
+                            <p class="anime__year">1999</p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer__container">
+            <div class="footer__content">
+            <h1 class="footer__title">AniHub</h1>
+            <p class="copyright">Copyright &copy AniHub. API sourced from anilist.co.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</section>
+</html>
